@@ -35,3 +35,26 @@ console.log(num1 + " / " + num2 + " = " + div);
 //short-hand operators
 num1 += 12;
 console.log("num1:" + num1)
+//document.write(num1 + " + " + num2 + " = " + sum)
+
+
+// boolean
+var start = true
+
+
+// if statements
+
+var youLikeMeat = true;
+
+if (youLikeMeat){
+    console.log("I will give you meat!!");
+    console.log("Here is the meat menu...");
+    //document.write("I will give you meat!!");
+    //document.write("Here is the meat menu...");
+}
+else{
+    console.log("You are a vegetarian!");
+    console.log("Here is the veg menu...");
+    //document.write("You are a vegetarian!")
+    //document.write("Here is the veg menu...");
+}
