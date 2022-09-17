@@ -58,3 +58,32 @@ else{
     //document.write("You are a vegetarian!")
     //document.write("Here is the veg menu...");
 }
+
+// positive, negative or zero number
+
+var num;
+
+num = 12;
+
+if (num > 0){
+    console.log("Hi Positive!!")
+}
+if (num < 0){
+    console.log("Hi Negative!!")
+}
+if (num == 0){
+    console.log("Hi Zero")
+}
+
+// age to vote
+
+var age;
+
+age = 12;
+
+if (age >= 18){
+    console.log("You can Vote!!")
+}
+else{
+    console.log("You cannot Vote!!")
+}
