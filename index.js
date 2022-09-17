@@ -30,3 +30,8 @@ console.log(num1 + " + " + num2 + " = " + sum);
 console.log(num1 + " - " + num2 + " = " + sub);
 console.log(num1 + " * " + num2 + " = " + mult);
 console.log(num1 + " / " + num2 + " = " + div);
+
+
+//short-hand operators
+num1 += 12;
+console.log("num1:" + num1)
