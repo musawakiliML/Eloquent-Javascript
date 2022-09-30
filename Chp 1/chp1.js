@@ -52,5 +52,25 @@ console.log('NaN == NaN =>', NaN == NaN)
 
 
 //Logical operators
-console.log("Logical operators")
+console.log("Logical operators (and:&&, or:||, not:!)")
+console.log("true && false =>", true && false)
+console.log("false || true =>",false || true)
+console.log("!true => ",!true )
 
+// ternary operators
+console.log("Ternary Operators")
+console.log("true ? 1 : 2 =>", true ? 1 : 2)
+console.log("false ? 1 : 2 =>", false ? 1 : 2)
+
+// Empty Values
+console.log("Empty Values")
+console.log("null =>",null)
+console.log("undefined =>", undefined)
+
+//Automatic type conversion(type coercion)
+console.log("Automatic type conversion")
+console.log("8 * null =>", 8 * null)
+console.log("'5' - 1 =>", '5' - 1)
+console.log("'5' + 1 =>",'5' + 1)
+console.log("'five' * 2 =>", 'five' * 2)
+console.log("false == 0 =>", false == 0)
