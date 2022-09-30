@@ -29,3 +29,28 @@ console.log(NaN)
 console.log("Strings in Javascript")
 console.log("A newline character is written like \"\\n\".")
 console.log(`The square of 12 is ${12 ** 2}`)
+console.log('This is also a "string"..')
+
+
+
+// Unary Operators
+console.log("Unary Operators")
+console.log("'typeof': typeof 2.3 = ",typeof 2.3)
+console.log("'typeof': typeof 'x' = ",typeof 'x')
+console.log("- (10 - 2)) = ", - (10 - 2))
+
+// Boolean values
+console.log("Boolean Values(true or false)")
+console.log("3 > 4 = ",3 > 4)
+console.log("5 < 6 =", 5 < 6)
+console.log('"Aardvark" < "Zoroaster" => ',"Aardvark" < "Zoroaster")
+console.log('"Itchy" != "Scratchy" =>',"Itchy" != "Scratchy")
+console.log('34 >= 23 =>',34 >= 23)
+console.log('56 <= 46 => ',56 <= 46)
+console.log('"Itchy" == "Scratchy" = ',"Itchy" == "Scratchy")
+console.log('NaN == NaN =>', NaN == NaN)
+
+
+//Logical operators
+console.log("Logical operators")
+
