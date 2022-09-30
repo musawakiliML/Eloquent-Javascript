@@ -79,7 +79,7 @@ if (num == 0){
 
 var age;
 
-age = 12;
+age = 17;
 
 if (age >= 18){
     console.log("You can Vote!!")
