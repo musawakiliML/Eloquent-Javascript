@@ -74,3 +74,10 @@ console.log("'5' - 1 =>", '5' - 1)
 console.log("'5' + 1 =>",'5' + 1)
 console.log("'five' * 2 =>", 'five' * 2)
 console.log("false == 0 =>", false == 0)
+
+
+// precise equality
+
+console.log("0 === false =>", 0 === false)
+console.log(" '' !== false =>", '' !== false)
+
