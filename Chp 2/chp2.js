@@ -21,3 +21,20 @@ console.log(name);
 
 let num1 = 1, num2 = 12;
 console.log(num1 + num2);
+
+
+// var and const
+
+var myname = "musa";
+const greeting = "Hello, ";
+console.log(greeting + myname);
+
+
+
+console.log(Math.max(4, 3));
+console.log(Math.min(1, 3) + 12);
+
+
+// Sample Square Program
+let theNumber = Number(prompt("Enter a Number:"));
+console.log("Your Number is the squareroot of " + theNumber * theNumber)
