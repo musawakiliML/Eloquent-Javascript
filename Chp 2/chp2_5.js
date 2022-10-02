@@ -4,8 +4,8 @@ Program Structure */
 const prompt = require("prompt-sync")();
 
 // for loops
-let number = Number(prompt("Enter a range:"))
+let range = Number(prompt("Enter a range:"))
 
-for (number; number < 10; number++){
+for (number = 0; number < range; number++){
     console.log("Hi!, For Loops...")
 }
