@@ -7,14 +7,14 @@ const prompt = require("prompt-sync")();
 
 const square = function(x){
     return x * x;
-}
+};
 console.log(square(4));
 
 // make noise function
 
 const makenoise = function(){
     console.log("Pling!");
-}
+};
 makenoise();
 
 // power and exponent
@@ -25,6 +25,51 @@ const power = function(base, exponent){
         result *= base;
     }
     return result;
-}
+};
 
 console.log(power(2, 10));
+
+
+// nested scope
+
+const hummus = function(factor){
+    const ingredient = function(amount, unit, name){
+        let ingredientAmount = amount * factor;
+        if (ingredientAmount > 1){
+            unit += "s";
+        }
+        console.log(`${ingredientAmount} ${unit} ${name}`);
+    };
+    ingredient(1, "can", "chickpeas");
+    ingredient(0.25, "cup", "tahini");
+    ingredient(0.25, "cup", "lemon juice");
+    ingredient(1, "clove", "garlic");
+    ingredient(1, "clove", "garlic");
+    ingredient(0.5, "teaspoon", "cumin");
+};
+
+hummus(3);
+
+
+// Functions as values
+let launchMissiles = function(){
+    missileSystem.launch("Now");
+};
+//if (safeMode){
+ //   launchMissiles = function()
+//}
+
+// Declaration notation
+function square_1(x){
+    return x * x;
+}
+
+console.log("The square of 4 is:", square_1(4));
+
+
+// a subtlety
+console.log("The Future says:", future());
+
+function future(){
+    return "You'll never have flying cars";
+}
