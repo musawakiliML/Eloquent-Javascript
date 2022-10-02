@@ -95,3 +95,8 @@ const square2 = x => x * x;
 
 console.log(square1(12));
 console.log(square2(123));
+
+// function without parameters
+const horn = () => {
+    console.log("Toot");
+};
