@@ -38,4 +38,19 @@ console.log(Math.min(1, 3) + 12);
 
 // Sample Square Program
 let theNumber = Number(prompt("Enter a Number:"));
-console.log("Your Number is the squareroot of " + theNumber * theNumber)
+console.log("Your Number is the squareroot of " + theNumber * theNumber);
+
+
+// Sample string program
+let theName = String(prompt("Enter your name:"));
+console.log("Hello, " + theName);
+
+
+// Conditional Execution
+let theNumber1 = Number(prompt("Enter a number:"));
+if (!Number.isNaN(theNumber1)){
+    console.log("Your Number is the squareroot of " + theNumber1 * theNumber1);
+}
+else {
+    console.log("The input =>" + theNumber1 + " Is Not a Number!!")
+}
