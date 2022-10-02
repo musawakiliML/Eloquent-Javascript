@@ -100,3 +100,4 @@ console.log(square2(123));
 const horn = () => {
     console.log("Toot");
 };
+
