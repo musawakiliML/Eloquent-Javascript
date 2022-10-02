@@ -73,3 +73,25 @@ console.log("The Future says:", future());
 function future(){
     return "You'll never have flying cars";
 }
+
+
+// Arrow Functions
+
+const power_1 = (base, exponent) => {
+    let result = 1;
+    for (let count = 0; count < exponent; count++){
+        result *= base;
+    }
+    return result;
+};
+
+console.log(power_1(2, 10));
+
+
+// more smaples of arrow functions
+
+const square1 = (x) => { return x * x; };
+const square2 = x => x * x;
+
+console.log(square1(12));
+console.log(square2(123));
