@@ -18,3 +18,12 @@ for (let current = 20; ; current = current + 1){
         break;
     }
 }
+
+// continue statement
+
+for (let num = 1; num < 10; num = num + 1){
+    if (num % 2 == 0){
+        console.log(num);
+        continue;
+    }
+}
