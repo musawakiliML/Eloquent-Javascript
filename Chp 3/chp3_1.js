@@ -101,3 +101,11 @@ const horn = () => {
     console.log("Toot");
 };
 
+
+// Optional Arguments
+function square3(x) {return x * x; }
+console.log(square3(4, true, "hedgehog"));
+
+
+//console.log(x);
+//var x = 90;
