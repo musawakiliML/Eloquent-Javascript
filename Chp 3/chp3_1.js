@@ -118,3 +118,15 @@ function minus(a, b){
 
 console.log(minus(10))
 console.log(minus(10, 200))
+
+
+//keyword arguments
+function power_new(base, exponent = 2){
+    let result = 1;
+    for (let counter=0; counter < exponent; counter++){
+        result *= base;
+    }
+    return result;
+}
+
+console.log(power_new(7));
